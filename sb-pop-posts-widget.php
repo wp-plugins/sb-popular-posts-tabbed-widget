@@ -86,7 +86,7 @@ class sb_tabbed_widget extends WP_Widget {
 				  	
 				  	<ul>
 				  	<?php
-				  	$sb_recent_posts_query = new WP_Query( array ( 'order' => 'ASC', 'posts_per_page' => $number ) );
+				  	$sb_recent_posts_query = new WP_Query( array ( 'posts_per_page' => $number ) );
 				  	
 					  	if($sb_recent_posts_query->have_posts()):
 						while($sb_recent_posts_query->have_posts()):

@@ -101,11 +101,14 @@ Author URI: http://designbyscott.wpengine.com/
 	background: none;
 }
 
-.widget_sb_tabbed_widget .tab-content ul li img {
+.widget_sb_tabbed_widget .tab-content ul li img.alignleft {
 	border: 1px solid #eee;
-	margin-bottom: 0;
 	margin-top: 0;
 	padding: 0;
+	max-width: 50px;
+	float: left;
+	margin-right: 1.5em;
+	margin-bottom: 1em;
 }
 
 .widget_sb_tabbed_widget .tab-content ul li:last-child {
