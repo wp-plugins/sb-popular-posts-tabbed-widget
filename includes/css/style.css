@@ -2,7 +2,7 @@
 
 Stylesheet for SB Tabbed Widget
 Author: Scott Bolinger
-Author URI: http://designbyscott.wpengine.com/
+Author URI: http://scottbolinger.com/
 
 */
 
@@ -35,6 +35,10 @@ Author URI: http://designbyscott.wpengine.com/
 	text-align: center;
 	max-height: 42px;
 	overflow: hidden;
+	border-bottom: none;
+}
+.widget_sb_tabbed_widget ul.sb_tabs li:before {
+	/* theme compatibility fix */
 	border-bottom: none;
 }
 .widget_sb_tabbed_widget ul.sb_tabs li:last-child {
@@ -101,14 +105,11 @@ Author URI: http://designbyscott.wpengine.com/
 	background: none;
 }
 
-.widget_sb_tabbed_widget .tab-content ul li img.alignleft {
+.widget_sb_tabbed_widget .tab-content ul li img {
 	border: 1px solid #eee;
+	margin-bottom: 0;
 	margin-top: 0;
 	padding: 0;
-	max-width: 50px;
-	float: left;
-	margin-right: 1.5em;
-	margin-bottom: 1em;
 }
 
 .widget_sb_tabbed_widget .tab-content ul li:last-child {

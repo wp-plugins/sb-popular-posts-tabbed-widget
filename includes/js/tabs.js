@@ -5,9 +5,9 @@ jQuery(document).ready(function($) {
 	$('div.sb_tabbed ul.sb_tabs li.t1 a').addClass('tab-current');
 
 // SIDEBAR TABS
-$('div.sb_tabbed ul li a').click(function(){
+$('div.sb_tabbed ul.sb_tabs li a').click(function(){
 	var thisClass = this.className.slice(0,2);
-	$('div.sb_tabbed div').hide();
+	$('div.sb_tabbed div').not( thisClass ).hide();
 	$('div.' + thisClass).show();
 	$('div.sb_tabbed ul.sb_tabs li a').removeClass('tab-current');
 	$(this).addClass('tab-current');
