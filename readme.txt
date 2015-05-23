@@ -1,7 +1,7 @@
 === SB Popular Posts Tabbed Widget ===
 Tags: popular posts, tab widget, tabs
-Requires at least: 3.0
-Tested up to: 3.6
+Requires at least: 3.5
+Tested up to: 4.2
 License: GPL2+
 
 A lightweight, responsive, uncluttered widget to display popular posts, recent posts, and categories with tabs.
@@ -23,3 +23,7 @@ Options:
 Number of posts to display: Set the number of posts and categories that will be displayed.
 Display thumbnails: If checked, post thumbnails (featured images) are shown at 50px by 50px.
 Display meta (date, comments): If checked, shows the number of comments, post date, and number of posts next to the post or category title.
+
+== Changelog ==
+= 1.1 =
+* fix javascript bug that hides div when link clicked

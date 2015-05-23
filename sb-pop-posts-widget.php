@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: SB Popular Posts Tabbed Widget
-Plugin URI: http://designbyscott.wpengine.com/
+Plugin URI: http://scottbolinger.com/
 Description: A lightweight, responsive, uncluttered widget to display popular posts, recent posts, and categories with tabs.
-Version: 1.0
+Version: 1.1
 Author: Scott Bolinger
-Author URI: http://designbyscott.wpengine.com/
+Author URI: http://scottbolinger.com/
 License: GPL2
 */
 
